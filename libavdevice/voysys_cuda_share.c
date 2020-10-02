@@ -337,8 +337,6 @@ static av_cold int voysys_read_close(AVFormatContext * avctx)
     return 0;
 }
 
-#define OFFSET(x) offsetof(FBDevContext, x)
-#define DEC AV_OPT_FLAG_DECODING_PARAM
 static const AVOption options[] = {
     { NULL },
 };
