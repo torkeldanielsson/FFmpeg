@@ -35,6 +35,7 @@ extern AVInputFormat  ff_decklink_demuxer;
 extern AVOutputFormat ff_decklink_muxer;
 extern AVInputFormat  ff_dshow_demuxer;
 extern AVInputFormat  ff_fbdev_demuxer;
+extern AVInputFormat  ff_voysys_cuda_share_demuxer;
 extern AVOutputFormat ff_fbdev_muxer;
 extern AVInputFormat  ff_gdigrab_demuxer;
 extern AVInputFormat  ff_iec61883_demuxer;

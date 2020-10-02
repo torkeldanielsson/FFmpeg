@@ -28,6 +28,7 @@ OBJS-$(CONFIG_FBDEV_INDEV)               += fbdev_dec.o \
                                             fbdev_common.o
 OBJS-$(CONFIG_FBDEV_OUTDEV)              += fbdev_enc.o \
                                             fbdev_common.o
+OBJS-$(CONFIG_VOYSYS_CUDA_SHARE)         += voysys_cuda_share.o
 OBJS-$(CONFIG_GDIGRAB_INDEV)             += gdigrab.o
 OBJS-$(CONFIG_IEC61883_INDEV)            += iec61883.o
 OBJS-$(CONFIG_JACK_INDEV)                += jack.o timefilter.o
